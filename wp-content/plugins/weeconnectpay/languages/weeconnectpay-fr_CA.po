@@ -1,0 +1,1094 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WeeConnectPay\n"
+"POT-Creation-Date: 2025-03-24 20:59-0400\n"
+"PO-Revision-Date: 2025-03-24 21:00-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: weeconnectpay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: src\n"
+"X-Poedit-SearchPathExcluded-3: payment_fields\n"
+"X-Poedit-SearchPathExcluded-4: node_modules\n"
+"X-Poedit-SearchPathExcluded-5: packages\n"
+"X-Poedit-SearchPathExcluded-6: dist\n"
+"X-Poedit-SearchPathExcluded-7: src\n"
+"X-Poedit-SearchPathExcluded-8: payment-fields-blocks/node_modules\n"
+
+#: admin/WeeConnectPayAdmin.php:179
+msgid "WooCommerce Settings"
+msgstr "Réglages WooCommerce"
+
+#: admin/WeeConnectPayAdmin.php:253
+msgid "Card Brand"
+msgstr "Marque de la Carte"
+
+#: includes/ValidateSettings.php:62
+msgid "Default"
+msgstr "Défaut"
+
+#: includes/ValidateSettings.php:63
+msgid "Light"
+msgstr "Clair"
+
+#: includes/ValidateSettings.php:64
+msgid "Blue"
+msgstr "Bleu"
+
+#: includes/ValidateSettings.php:65
+msgid "Coffee"
+msgstr "Café"
+
+#: includes/ValidateSettings.php:66
+msgid "Ectoplasm"
+msgstr "Ectoplasme"
+
+#: includes/ValidateSettings.php:67
+msgid "Midnight"
+msgstr "Minuit"
+
+#: includes/ValidateSettings.php:68
+msgid "Ocean"
+msgstr "Océan"
+
+#: includes/ValidateSettings.php:69
+msgid "Sunrise"
+msgstr "Lever de soleil"
+
+#: includes/ValidateSettings.php:125
+msgid "Enable WooCommerce WeeConnectPay Clover Integration"
+msgstr "Activer l’intégration WeeConnectPay/WooCommerce  Clover"
+
+#: includes/ValidateSettings.php:126
+msgid "Disable WooCommerce WeeConnectPay Clover Integration"
+msgstr "Désactiver l’intégration WeeConnectPay/WooCommerce  Clover"
+
+#: includes/WeeConnectPayAPI.php:392
+msgid ""
+"A shipping address state, county or province is required for this gateway."
+msgstr ""
+"Un état d’adresse de livraison, un comté ou une province est requis pour "
+"cette passerelle."
+
+#: includes/WeeConnectPayException.php:151
+msgid ""
+"We meant to show you a meaningful error but something went wrong. Please "
+"contact us."
+msgstr ""
+"Nous voulions vous montrer une erreur significative, mais quelque chose s’est "
+"mal passé. S’il vous plaît contactez-nous."
+
+#: includes/WeeConnectPayException.php:159
+msgid "A Clover API key is needed to use this plugin."
+msgstr "Une clé API Clover est nécessaire pour utiliser ce plugin."
+
+#: includes/WeeConnectPayException.php:166
+msgid ""
+"WeeConnectPay could not find an associated account with the provided Clover "
+"API Key. Log in the WeeConnectPay app through the Clover app market to "
+"resolve this."
+msgstr ""
+"WeeConnectPay n’a pas pu trouver de compte associé avec la clé API Clover "
+"fournie. Connectez-vous à l’application WeeConnectPay via le marché des "
+"applications Clover pour résoudre ce problème."
+
+#: includes/WeeConnectPayHelper.php:297 includes/WeeConnectPayHelper.php:338
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1000
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1032
+msgid "Refunded: "
+msgstr "Remboursé : "
+
+#: includes/WeeConnectPayHelper.php:299 includes/WeeConnectPayHelper.php:340
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1002
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1034
+#, php-format
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+# Utiliser dans les notes de commandes pour le marchand, precede un ID de 13 charactere avec des chiffres et des nombres (de Clover).
+# Tout les notes de commandes qui contiennent "ID" devrais avoir la meme terminologie pour etre constant.
+# ---
+# Used in the order notes in bold before a 13 character alphanumerical ID from Clover.
+# All the order notes that contain "ID" should be described the same way across the different "ID" notes in every language.
+#: includes/WeeConnectPayHelper.php:303 includes/WeeConnectPayHelper.php:344
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1006
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1038
+msgid "Refund ID: "
+msgstr "ID du remboursement : "
+
+#: includes/WeeConnectPayHelper.php:310
+msgid "Custom Tender: "
+msgstr "Paiement personnalisé : "
+
+# Utiliser dans les notes de commandes pour le marchand, precede un ID de 13 charactere avec des chiffres et des nombres (de Clover).
+# Tout les notes de commandes qui contiennent "ID" devrais avoir la meme terminologie pour etre constant.
+# ---
+# Used in the order notes in bold before a 13 character alphanumerical ID from Clover.
+# All the order notes that contain "ID" should be described the same way across the different "ID" notes in every language.
+#: includes/WeeConnectPayHelper.php:317
+msgid "Refunded charge ID: "
+msgstr "ID de la transaction remboursée: "
+
+#: includes/WeeConnectPayHelper.php:320 includes/WeeConnectPayHelper.php:347
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1010
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1041
+msgid "Reason: "
+msgstr "Raison: "
+
+# Utiliser dans les notes de commandes pour le marchand, precede un ID de 13 charactere avec des chiffres et des nombres (de Clover).
+# Tout les notes de commandes qui contiennent "ID" devrais avoir la meme terminologie pour etre constant.
+# ---
+# Used in the order notes in bold before a 13 character alphanumerical ID from Clover.
+# All the order notes that contain "ID" should be described the same way across the different "ID" notes in every language.
+#: includes/WeeConnectPayHelper.php:364
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1062
+msgid "Returned clover item ID: "
+msgstr "ID d’article Clover retourné : "
+
+#: includes/WeeConnectPayHelper.php:366
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1064
+#, php-format
+msgid "%1$s(%2$s %3$s) - %4$s"
+msgstr "%1$s (%2$s %3$s) - %4$s"
+
+#: includes/WeeConnectPayHelper.php:380
+msgid "⚠️ Refund Note: "
+msgstr "⚠️ Note de remboursement: "
+
+#: includes/WeeConnectPayHelper.php:382
+msgid "Error: "
+msgstr "Erreur: "
+
+#: includes/WeeConnectPayHelper.php:386
+msgid "Error Code: "
+msgstr "Code d’erreur: "
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:96
+msgid "Clover Integration"
+msgstr "Intégration de Clover"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:98
+msgid ""
+"Simplify online payments by adding the Clover payment option to your shopping "
+"cart. Then you will see your payments in real time on your Clover web portal."
+msgstr ""
+"Simplifiez les paiements en ligne en ajoutant l’option de paiement Clover à "
+"votre panier. Ensuite, vous verrez vos paiements en temps réel sur votre "
+"portail Web Clover."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:313
+msgid "Please enter your payment information."
+msgstr "Veuillez saisir vos informations de paiement."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:319
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:323
+msgid "Please enter a valid credit card number."
+msgstr "Veuillez saisir un numéro de carte de crédit valide."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:329
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:333
+msgid "Please enter a valid credit card expiry date."
+msgstr "Veuillez saisir une date d’expiration de carte de crédit valide."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:339
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:343
+msgid "Please enter a valid credit card CVV number."
+msgstr "Veuillez saisir un numéro CVV de carte de crédit valide."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:349
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:353
+msgid "Please enter a valid credit card postal code."
+msgstr "Veuillez saisir un code postal de carte de crédit valide."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:374
+msgid "The connection with Clover has been successfully established!"
+msgstr "La connexion avec Clover a été établie avec succès!"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:375
+msgid ""
+"An error occurred while trying to establish a connection with Clover, please "
+"try again in a few minutes."
+msgstr ""
+"Une erreur s'est produite lors de la tentative de connexion avec Clover. "
+"Veuillez réessayer dans quelques minutes."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:400
+msgid "Enable"
+msgstr "Activer"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:401
+msgid "Enable payment gateway"
+msgstr "Activer la passerelle de paiement"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:407
+msgid "Authorize Plugin"
+msgstr "Autoriser plugin"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:411
+msgid "Title"
+msgstr "Titre"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:413
+msgid "This controls the title which the user sees during checkout."
+msgstr "Détermine le titre que les utilisateurs verront durant la commande."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:415
+msgid "Payment by Credit Card"
+msgstr "Paiement par carte de crédit"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:418
+msgid "Post-Tokenization Verification"
+msgstr "Vérification post-tokenization"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:420
+msgid "Enable Post-Tokenization Verification"
+msgstr "Activer la vérification post-tokenisation"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:422
+msgid ""
+"When enabled, additional verification will be performed after card "
+"tokenization."
+msgstr ""
+"Lorsqu'activé, une vérification supplémentaire sera effectuée après la "
+"tokenisation de la carte."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:425
+msgid "Debug Mode"
+msgstr "Mode de débogage"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:427
+msgid "Enable Debug Mode"
+msgstr "Activer le mode de débogage"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:429
+msgid ""
+"When enabled, debug information will be logged and can be viewed in the logs "
+"section below."
+msgstr ""
+"Lorsqu'activé, les informations de débogage seront enregistrées et pourront "
+"être consultées dans la section des journaux ci-dessous."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:432
+msgid "Google reCAPTCHA"
+msgstr "Google reCAPTCHA"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:434
+msgid "Enable Google reCAPTCHA"
+msgstr "Activer Google reCAPTCHA"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:435
+msgid ""
+"Enable Google reCAPTCHA v3 for extra security. This new reCAPTCHA is "
+"completely hidden from the customer. A score value between 0 (100% automated) "
+"and 1 (100% human) will be added in the order notes for each payment attempt."
+msgstr ""
+"Activez Google reCAPTCHA v3 pour plus de sécurité. Ce nouveau reCAPTCHA est "
+"complètement caché au client. Une valeur de score comprise entre 0 (100% "
+"automatisé) et 1 (100% humain) sera ajoutée dans les notes de commande à "
+"chaque tentative de paiement."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:441
+msgid "Google reCAPTCHA Site Key"
+msgstr "Clé du site Google reCAPTCHA"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:442
+msgid ""
+"Don't have a site key and private key for this domain? <a href=\"https://www."
+"google.com/recaptcha/admin/create\" target=\"_blank\">Click here</a> to set "
+"it up."
+msgstr ""
+"Vous n’avez pas de clé de site ni de clé privée pour ce domaine? <a href="
+"\"https://www.google.com/recaptcha/admin/create?hl=fr\" target=\"_blank"
+"\">Cliquez ici</a> pour le configurer."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:447
+msgid "Google reCAPTCHA Secret Key"
+msgstr "Clé secrète Google reCAPTCHA"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:451
+msgid "Google reCAPTCHA Minimum Human Score Threshold"
+msgstr "Seuil minimum de score humain de Google reCAPTCHA"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:453
+msgid ""
+"Enhance order security: Set a reCAPTCHA score threshold. The recommended "
+"default value is 0.5. Orders with scores below this setting will be "
+"considered as non-human order, the status will be set as \"failed\" in "
+"WooCommerce and no resource will be created in your Clover account."
+msgstr ""
+"Améliorez la sécurité des commandes: définissez un seuil de score reCAPTCHA. "
+"La valeur par défaut recommandée est 0,5. Les commandes avec des scores "
+"inférieurs à ce paramètre seront considérées comme des commandes non "
+"humaines, le statut sera défini comme «Échouée» dans WooCommerce et aucune "
+"commande ne sera créée dans votre compte Clover."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:463
+msgid "Honeypot Fields"
+msgstr "Champs Honeypot"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:465
+msgid "Enable Honeypot Fields"
+msgstr "Activer les champs Honeypot"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:466
+msgid ""
+"As an additional bot detection step, hidden fields that are sometimes filled "
+"by bots will be added to the form."
+msgstr ""
+"Comme étape supplémentaire de détection des robots, des champs cachés, "
+"parfois remplis par des robots, seront ajoutés au formulaire."
+
+# Merchant Name:
+# Merchant ID:
+# Sont ce qu'on voit dans le haut des settings WooCommerce, les 2 sont 1 a coter de l'autre et devrais avoir la meme terminologie pour "Merchant".
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:494
+msgid "Merchant Name: "
+msgstr "Nom du commerçant : "
+
+# Merchant Name:
+# Merchant ID:
+# Sont ce qu'on voit dans le haut des settings WooCommerce, les 2 sont 1 a coter de l'autre et devrais avoir la meme terminologie pour "Merchant".
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:499
+msgid "Merchant ID: "
+msgstr "Identifiant du commerçant : "
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:513
+msgid "Log in as another Clover merchant or employee"
+msgstr "Connectez-vous en tant qu’un autre commerçant ou employé de Clover"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:618
+msgid ""
+"This order contains gift card or loyalty card payments. For security reasons, "
+"partial refunds are not available when multiple payment methods are used. "
+"Please use the \"Refund\" button in the WeeConnectPay Charges section above "
+"to process a full refund for each transaction."
+msgstr ""
+"Cette commande contient des paiements par carte-cadeau ou carte de fidélité. "
+"Pour des raisons de sécurité, les remboursements partiels ne sont pas "
+"disponibles lorsque plusieurs modes de paiement sont utilisés. Veuillez "
+"utiliser le bouton « Rembourser » dans la section Transactions WeeConnectPay "
+"ci-dessus pour effectuer un remboursement complet pour chaque transaction."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:642
+msgid "Provided ID is not a WC Order"
+msgstr "L’ID fourni n’est pas une commande de WC"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:651
+msgid "No WC Order Refund found"
+msgstr "Aucun remboursement de commande WC trouvé"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:658
+msgid "Refund amount must be higher than 0."
+msgstr "Le montant du remboursement doit être supérieur à 0."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:664
+msgid "Last created refund is not a WC Order Refund"
+msgstr "Le dernier remboursement créé n’est pas un remboursement de commande WC"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:670
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1080
+msgid "Order has been already refunded"
+msgstr "La commande a déjà été remboursée"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:679
+msgid ""
+"Due to an undocumented breaking change in the Clover API, we have temporarily "
+"disabled partial refunds.\n"
+msgstr ""
+"En raison d’un changement non documenté dans l’API de Clover, nous avons "
+"temporairement désactivé les remboursements partiels.\n"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:680
+msgid ""
+"This request to refund will not be processed. Should you want to do a partial "
+"refund, you can do so through your Clover web dashboard."
+msgstr ""
+"Cette demande de remboursement ne sera pas traitée. Si vous souhaitez "
+"effectuer un remboursement partiel, vous pouvez le faire via votre tableau de "
+"bord Web Clover."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:705
+#, php-format
+msgid ""
+"To refund this line item (%s), the quantity to refund (currently %s) must be "
+"the total line item quantity (%s)"
+msgstr ""
+"Pour rembourser cet item (%s), la quantité à rembourser (actuellement %s) "
+"doit être la quantité totale de l'item (%s)"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:717
+#, php-format
+msgid ""
+"To refund this line item (%s), the amount before tax to refund (currently $"
+"%s) must be the line item total amount before tax ($%s)"
+msgstr ""
+"Pour rembourser cet item (%s), le montant avant taxes à rembourser "
+"(actuellement %s $) doit être le montant total avant taxes de l'item (%s $)"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:729
+#, php-format
+msgid ""
+"To refund this line item (%s), the tax to refund (currently $%s) must be the "
+"line item total tax ($%s)"
+msgstr ""
+"Pour rembourser cet item (%s), la taxe à rembourser (actuellement %s $) doit "
+"être la taxe totale de l'item (%s $)"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:790
+#, php-format
+msgid ""
+"Could not find the fee to refund (%s) within the original order. Please "
+"contact support@weeconnectpay.com if you are seeing this message."
+msgstr ""
+"Impossible de trouver les frais a rembourser (%s) dans la commande d’origine. "
+"Veuillez contacter support@weeconnectpay.com si vous voyez ce message."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:805
+#, php-format
+msgid ""
+"To refund this fee (%s), the quantity to refund (currently %s) must be the "
+"total fee quantity (%s)"
+msgstr ""
+"Pour rembourser ce frais (%s), la quantité à rembourser (actuellement %s) "
+"doit être la quantité totale du frais (%s)"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:818
+#, php-format
+msgid ""
+"To refund this fee (%s), the amount before tax to refund (currently $%s) must "
+"be the fee total amount before tax ($%s)"
+msgstr ""
+"Pour rembourser ce frais (%s), le montant avant taxes à rembourser "
+"(actuellement %s $) doit être le montant total avant taxes du frais (%s $)"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:830
+#, php-format
+msgid ""
+"To refund this fee (%s), the tax to refund (currently $%s) must be the fee "
+"total tax ($%s)"
+msgstr ""
+"Pour rembourser ce frais (%s), la taxe à rembourser (actuellement %s $) doit "
+"être la taxe totale du frais (%s $)"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:894
+#, php-format
+msgid ""
+"To refund this shipping item (%s), the amount before tax to refund (currently "
+"$%s) must be the shipping item total amount before tax ($%s)"
+msgstr ""
+"Pour rembourser ce frais de livraison (%s), le montant avant taxes à "
+"rembourser (actuellement %s $) doit être le montant total du frais de "
+"livraison avant taxes (%s $)"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:906
+#, php-format
+msgid ""
+"To refund this shipping item (%s), the shipping tax to refund (currently $%s) "
+"must be the shipping item total tax ($%s)"
+msgstr ""
+"Pour rembourser ce frais de livraison (%s), la taxe du frais de livraison à "
+"rembourser (actuellement %s $) doit être la taxe totale du frais de livraison "
+"(%s $)"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1007
+msgid "Charge refunded: "
+msgstr "Frais remboursés : "
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1103
+msgid "WeeConnectPay Charges"
+msgstr "Transactions WeeConnectPay"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1108
+msgid "Charge ID"
+msgstr "ID de transaction"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1109
+msgid "Amount"
+msgstr "Montant"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1110
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:732
+msgid "Card Type"
+msgstr "Type de carte"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1111
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:737
+msgid "Last 4"
+msgstr "4 derniers chiffres"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1112
+msgid "Exp Date"
+msgstr "Date d'exp."
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1113
+msgid "Postal Code"
+msgstr "Code postal"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1114
+msgid "Status"
+msgstr "État"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1115
+msgid "Action"
+msgstr "Action"
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1158
+msgid "Refund"
+msgstr "Rembourser"
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:244
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:546
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:959
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:1047
+msgid "Payment processing failed. Please try again."
+msgstr "Le traitement du paiement a échoué. Veuillez réessayer."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:250
+msgid ""
+"An unexpected error occurred during payment processing. Please try again."
+msgstr ""
+"Une erreur inattendue s'est produite lors du traitement du paiement. Veuillez "
+"réessayer."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:269
+msgid ""
+"The hidden honeypot field was filled out. Likely a bot. Cancelling order. "
+"Field Value: "
+msgstr ""
+"Le champ honeypot caché a été rempli. Probablement un bot. Annulation de la "
+"commande. Valeur du champ : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:296
+msgid ""
+"<b>Google reCAPTCHA API.js (front-end/customer-facing) has encountered an "
+"error.</b> Google reCAPTCHA checks will be disabled for this transaction. "
+"Here is the error message: "
+msgstr ""
+"<b>Google reCAPTCHA API.js (front-end/customer-facing) a rencontré une erreur."
+"</b> Les contrôles Google reCAPTCHA seront désactivés pour cette transaction. "
+"Voici le message d’erreur: "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:311
+msgid "Google reCAPTCHA: "
+msgstr "Google reCAPTCHA: "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:312
+msgid "Google reCAPTCHA score: "
+msgstr "Score Google reCAPTCHA : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:313
+msgid "Minimum human score setting: "
+msgstr "Paramètre de score humain minimum : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:317
+msgid ""
+"According to your plugin settings for Google reCAPTCHA, the customer who paid "
+"for the order is likely a human being."
+msgstr ""
+"Selon les paramètres de votre plugin pour Google reCAPTCHA, le client qui a "
+"payé la commande est probablement un être humain."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:320
+msgid ""
+"According to your plugin settings for Google reCAPTCHA, the customer who paid "
+"for the order is <b>NOT</b> likely a human being. The order will be "
+"cancelled. If you are sure that this order was legitimate, please decrease "
+"the minimum human score threshold in the gateway settings."
+msgstr ""
+"Selon les paramètres de votre plug-in pour Google reCAPTCHA, le client qui a "
+"payé la commande n’est probablement <b>PAS</b> un être humain. La commande "
+"sera annulée. Si vous êtes sûr que cette commande était légitime, veuillez "
+"diminuer le seuil minimum de score humain dans les paramètres de la "
+"passerelle."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:336
+msgid ""
+"The request to Google was successful but is missing the score. Full response: "
+msgstr ""
+"La requête adressée à Google contient a abouti, mais il manque le score nous "
+"indiquant la probabilité que l’utilisateur soit un être humain. Voir la "
+"réponse complète : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:344
+msgid ""
+"The request to Google reCAPTCHA triggered an exception. See exception "
+"message: "
+msgstr ""
+"La requête adressée à Google reCAPTCHA a déclenché une exception. Voir le "
+"message d’exception : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:349
+msgid "The response from Google reCAPTCHA contains errors. See error codes: "
+msgstr ""
+"La réponse de Google reCAPTCHA contient des erreurs. Voir les codes "
+"d’erreur : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:354
+msgid ""
+"The response from Google reCAPTCHA contains unexpected errors. Full response: "
+msgstr ""
+"La réponse de Google reCAPTCHA contient des erreurs inattendues. Voir la "
+"réponse complète : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:471
+msgid "Customer creation failed."
+msgstr "La création du client a échoué."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:498
+msgid "Clover order created."
+msgstr "La commande Clover a été créé."
+
+# Utiliser dans les notes de commandes pour le marchand, precede un ID de 13 charactere avec des chiffres et des nombres (de Clover).
+# Tout les notes de commandes qui contiennent "ID" devrais avoir la meme terminologie pour etre constant.
+# ---
+# Used in the order notes in bold before a 13 character alphanumerical ID from Clover.
+# All the order notes that contain "ID" should be described the same way across the different "ID" notes in every language.
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:499
+msgid "Order ID: "
+msgstr "ID de commande : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:515
+msgid "Error preparing payment order with Clover."
+msgstr "Erreur lors de la préparation de la commande de paiement avec Clover."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:647
+msgid "Clover payment successful!"
+msgstr "Paiement Clover réussi!"
+
+# Utiliser dans les notes de commandes pour le marchand, precede un ID de 13 charactere avec des chiffres et des nombres (de Clover).
+# Tout les notes de commandes qui contiennent "ID" devrais avoir la meme terminologie pour etre constant.
+# ---
+# Used in the order notes in bold before a 13 character alphanumerical ID from Clover.
+# All the order notes that contain "ID" should be described the same way across the different "ID" notes in every language.
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:648
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:697
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:862
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:899
+msgid "Payment ID: "
+msgstr "ID du paiement : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:694
+msgid "Clover payment failed."
+msgstr "Le paiement Clover a échoué."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:707
+msgid "Charge ID: "
+msgstr "ID de transaction: "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:713
+msgid "Error code: "
+msgstr "Code d’erreur: "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:719
+msgid "Decline code: "
+msgstr "Code de refus: "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:725
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:885
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:906
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:923
+msgid "Clover error message: "
+msgstr "Message d’erreur Clover : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:861
+msgid "Clover custom tender payment successful!"
+msgstr "Paiement personnalisé Clover réussi!"
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:865
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:902
+msgid "Custom Tender"
+msgstr "Paiement personnalisé"
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:887
+msgid ""
+"Please check the order in the Clover dashboard for the full payment "
+"information."
+msgstr ""
+"Veuillez vérifier la commande dans le tableau de bord Clover pour les "
+"informations de paiement complètes."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:898
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:912
+msgid "Clover custom tender payment failed."
+msgstr "Le paiement personnalisé Clover a échoué."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:915
+msgid "Clover response message: "
+msgstr "Réponse de Clover : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:919
+msgid "Clover error code: "
+msgstr "Code d’erreur Clover : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:929
+msgid ""
+"Clover custom tender payment failed - Unhandled context, see response "
+"payload: "
+msgstr ""
+"Échec du paiement personnalisé Clover - Contexte non géré, voir la réponse : "
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:937
+msgid "Payment failed. Please try again."
+msgstr "Le paiement a échoué. Veuillez réessayer."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:1031
+msgid "Payment processing failed due to an unexpected error."
+msgstr "Le traitement du paiement a échoué en raison d'une erreur inattendue."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:1167
+msgid ""
+"⚠️ Warning: An error has occurred: We could not detect the postal code used "
+"for the transaction."
+msgstr ""
+"⚠️ Avertissement: Une erreur s'est produite: Nous n'avons pas pu détecter le "
+"code postal utilisé pour la transaction."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:1177
+#, php-format
+msgid ""
+"ℹ️ Info: Please note that the shipping ZIP/Postal code \"%s\" and the billing "
+"ZIP/Postal code \"%s\" are different."
+msgstr ""
+"ℹ️ Info: Veuillez noter que le code postal d’expédition « %s » et le code "
+"postal de facturation « %s » sont différents."
+
+#: includes/integrations/woocommerce/WeeConnectPayOrderProcessor.php:1186
+#, php-format
+msgid ""
+"⚠️ Warning: Please note that the billing ZIP/Postal code \"%s\" and the "
+"payment card ZIP/Postal code \"%s\" are different. These should be the same."
+msgstr ""
+"⚠️ Avertissement : Veuillez noter que le code postal de facturation « %s » et "
+"le code postal de la carte de paiement « %s » sont différents. Ceux-ci "
+"devraient être les mêmes."
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:221
+msgid ""
+"Failed to update the WooCommerce WeeConnectPay gateway enabled status in the "
+"database. The gateway options could not be found."
+msgstr ""
+"Impossible de mettre à jour le statut de la passerelle WeeConnectPay/"
+"WooCommerce dans la base de données. Les options de passerelle n’ont pas pu "
+"être trouvées."
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:234
+msgid "Failed to update the WooCommerce integration status in the database."
+msgstr ""
+"Impossible de mettre à jour le statut de l’intégration de WooCommerce dans la "
+"base de données."
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:268
+msgid ""
+"Failed to update the WooCommerce integration title in the database. The "
+"gateway options could not be found."
+msgstr ""
+"Impossible de mettre à jour le titre d’intégration WooCommerce dans la base "
+"de données. Les options de passerelle n’ont pas pu être trouvées."
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:281
+msgid "Failed to update the WooCommerce integration title in the database."
+msgstr ""
+"Impossible de mettre à jour le titre d’intégration WooCommerce dans la base "
+"de données."
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:654
+#, php-format
+msgid ""
+"Something went wrong while validating the current %1$s version. %1$s is "
+"required for this integration to work properly. Integration disabled. "
+msgstr ""
+"Quelque chose s’est mal passé lors de la validation de la version %1$s "
+"actuelle. %1$s est nécessaire pour que cette intégration fonctionne "
+"correctement. Intégration désactivée. "
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:662
+msgid "Dependencies are ok!"
+msgstr "Les dépendances sont acceptables!"
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:669
+msgid ""
+"Something went wrong while validating one of the requirements for this "
+"integration to work properly. Integration disabled."
+msgstr ""
+"Quelque chose s’est mal passé lors de la validation de l’une des exigences "
+"pour que cette intégration fonctionne correctement. Intégration désactivée."
+
+#: includes/modules/WeeConnectPay/StandardizedResponse.php:34
+msgid ""
+"A malformed response was received. Our team has been notified. We are sorry "
+"for the inconvenience."
+msgstr ""
+"Une réponse mal formée a été reçue. Notre équipe a été avisée. Nous sommes "
+"désolés pour le désagrément."
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:45
+#, php-format
+msgid ""
+"%1$s constant does not seem to be set, which is required for this integration "
+"to work properly when using GitPod. Integration disabled."
+msgstr ""
+"La constante %1$s ne semble pas être définie, ce qui est nécessaire pour que "
+"cette intégration fonctionne correctement dans un environnement GitPod. "
+"Intégration désactivée."
+
+# Ce string est pour la valeur du setting permalien a eviter, et utilise un terme specifique;  voir le premier choix dans /wp-admin/options-permalink.php
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:59
+msgid "Plain"
+msgstr "Simple"
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:60
+msgid "the permalinks page"
+msgstr "la page des permaliens"
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:63
+#, php-format
+msgid ""
+"You can resolve this issue by changing your WordPress permalinks settings to "
+"something other than \"%1$s\" on %2$s."
+msgstr ""
+"Vous pouvez résoudre ce problème en modifiant vos paramètres de permaliens "
+"WordPress à quelque chose d’autre que « %1$s » sur %2$s."
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:70
+msgid ""
+"It appears that your WordPress database prefix is either not set or is set to "
+"an empty string. This is against WordPress security standards, and as a "
+"result, WeeConnectPay has been disabled."
+msgstr ""
+"Il semble que le préfixe de votre base de données WordPress ne soit pas "
+"défini ou soit vide. Cela va à l'encontre des normes de sécurité de WordPress "
+"et, par conséquent, WeeConnectPay a été désactivé."
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:71
+msgid ""
+"To resolve this issue, please set a valid prefix in your WordPress database "
+"configuration. In a standard WordPress installation, this is done by defining "
+"the <code>$table_prefix</code> variable in the <code>wp-config.php</code> "
+"file. Having an empty or missing prefix can lead to security vulnerabilities, "
+"so it’s crucial to ensure this is configured correctly. <p><strong>Warning:</"
+"strong> Changing the <code>$table_prefix</code> value may trigger the "
+"WordPress installation wizard. This can give the appearance that your site’s "
+"data is missing, but your content is still safe in the database tables "
+"without the prefix. We strongly recommend consulting with your web developer "
+"before making this change to avoid any confusion or potential issues.</p>"
+msgstr ""
+"Pour résoudre ce problème, veuillez définir un préfixe valide dans la "
+"configuration de la base de données WordPress. Dans une installation standard "
+"de WordPress, cela se fait en définissant la variable <code>$table_prefix</"
+"code> dans le fichier <code>wp-config.php</code>. Un préfixe vide ou manquant "
+"peut entraîner des vulnérabilités de sécurité, il est donc essentiel de le "
+"configurer correctement. <p><strong>Attention :</strong> Modifier la valeur "
+"de <code>$table_prefix</code> peut déclencher l'assistant d'installation de "
+"WordPress. Cela peut donner l'impression que les données de votre site ont "
+"disparu, mais elles sont toujours présentes dans les tables de la base de "
+"données sans le préfixe. Nous vous recommandons vivement de consulter votre "
+"développeur web avant d’effectuer ce changement afin d’éviter toute confusion "
+"ou tout problème potentiel.</p>"
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:87
+#, php-format
+msgid ""
+"%1$s does not seem to be active, which is required for this integration to "
+"work properly. Integration disabled."
+msgstr ""
+"%1$s ne semble pas être actif, ce qui est nécessaire pour que cette "
+"intégration fonctionne correctement. Intégration désactivée."
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:103
+#, php-format
+msgid ""
+"%1$s version %2$s or higher is required for this integration to work. Your "
+"current version is %3$s. Integration disabled."
+msgstr ""
+"%1$s version %2$s ou supérieure est requise pour que cette intégration "
+"fonctionne. Votre version actuelle est %3$s. Intégration désactivée."
+
+#: payment-fields-blocks/assets/js/frontend/index.js:22
+#: payment-fields-blocks/clover-woo-blocks/woo_blocks_payment_fields.js:32
+#: payment-fields-blocks/resources/js/frontend/index.js:13
+msgid "Credit Card"
+msgstr "Paiement par carte de crédit"
+
+#: site/WeeConnectPayPublic.php:152
+msgid "Exciting Update from WeeConnectPay!"
+msgstr "Mise à jour intéressante de WeeConnectPay!"
+
+#: site/WeeConnectPayPublic.php:153
+msgid "Introducing a New Feature: Block-based checkout!"
+msgstr ""
+"Présentation d’une nouvelle fonctionnalité: Page de paiement basée sur les "
+"blocs!"
+
+#: site/WeeConnectPayPublic.php:154
+msgid ""
+"Your WeeConnectPay plugin is now compatible with WooCommerce's new Block-"
+"based checkout. Enjoy seamless payments with the latest features."
+msgstr ""
+"Votre plugin WeeConnectPay est maintenant compatible avec le nouveau "
+"processus de paiement basé sur les blocs de WooCommerce. Profitez de "
+"paiements fluides avec les dernières fonctionnalités."
+
+#: site/WeeConnectPayPublic.php:155
+msgid "If you encounter any issues, please contact us at "
+msgstr "Si vous rencontrez des problèmes, veuillez nous contacter à "
+
+# Le lien peut etre modifier pour faire naviger l'utilisateur a la version de la langue du site, ie:
+# https://weeconnectpay.com/fr/...
+# The link here can bring to the version of our website that is specific to the language of the plugin ex:
+# https://weeconnectpay.com/fr/...
+#: site/WeeConnectPayPublic.php:155
+msgid "support@weeconnectpay.com"
+msgstr "support@weeconnectpay.com"
+
+#: site/WeeConnectPayPublic.php:155
+msgid " and we will be happy to help. Thank you!"
+msgstr " et nous serons heureux de vous aider. Merci!"
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "WeeConnectPay"
+msgstr "WeeConnectPay"
+
+# Le lien peut etre modifier pour faire naviger l'utilisateur a la version de la langue du site, ie:
+# https://weeconnectpay.com/fr/...
+# The link here can bring to the version of our website that is specific to the language of the plugin ex:
+# https://weeconnectpay.com/fr/...
+#. Plugin URI of the plugin/theme
+msgid "https://weeconnectpay.com/plugin?platform=wordpress"
+msgstr "https://weeconnectpay.com/fr/woocommerce-integration/"
+
+#. Description of the plugin/theme
+msgid "Integrate Clover Payments with your WooCommerce online store."
+msgstr "Intégrez Clover Paiements à votre boutique en ligne WooCommerce."
+
+# Le lien peut etre modifier pour faire naviger l'utilisateur a la version de la langue du site, ie:
+# https://weeconnectpay.com/fr/...
+# The link here can bring to the version of our website that is specific to the language of the plugin ex:
+# https://weeconnectpay.com/fr/...
+#. Author URI of the plugin/theme
+msgid "https://weeconnectpay.com/"
+msgstr "https://weeconnectpay.com/fr/"
+
+#~ msgid "Error message: "
+#~ msgstr "Message d’erreur Clover : "
+
+#~ msgid "Fraud Analysis"
+#~ msgstr "Analyse de la fraude"
+
+#~ msgid ""
+#~ "The hidden honeypot field was filled out. This field is hidden an can only "
+#~ "be filled out programmatically. The likelihood of this order having been "
+#~ "filled out by a human is extremely low. Cancelling order. Field Value: "
+#~ msgstr ""
+#~ "Le champ Honeypot caché a été rempli. Ce champ est masqué et ne peut être "
+#~ "rempli que par programmation. La probabilité que cet ordre ait été exécuté "
+#~ "par un humain est extrêmement faible. Annulation de la commande. Valeur du "
+#~ "champ : "
+
+#~ msgid ""
+#~ "ERROR: The merchant's Clover API key needs to be refreshed by the merchant "
+#~ "to keep taking payments with this gateway. Please advise the merchant to "
+#~ "re-authenticate in the integration to re-enable the payment gateway."
+#~ msgstr ""
+#~ "ERREUR: La clé API Clover du commerçant doit être actualisée par le "
+#~ "commerçant pour continuer à prendre des paiements avec cette passerelle. "
+#~ "Veuillez conseiller au commerçant de se ré-authentifier dans l’intégration "
+#~ "pour réactiver la passerelle de paiement."
+
+#~ msgid ""
+#~ "ERROR: The merchant's WeeConnectPay API key needs to be refreshed by the "
+#~ "merchant to keep taking payments with this gateway. Please advise the "
+#~ "merchant to re-authenticate in the integration to re-enable the payment "
+#~ "gateway."
+#~ msgstr ""
+#~ "ERREUR: La clé API WeeConnectPay du commerçant doit être actualisée par le "
+#~ "commerçant pour continuer à prendre des paiements avec cette passerelle. "
+#~ "Veuillez conseiller au commerçant de se ré-authentifier dans l’intégration "
+#~ "pour réactiver la passerelle de paiement."
+
+#~ msgid "No payment required: Order total is 0 or under."
+#~ msgstr "Aucun paiement requis: Le total de la commande est de 0 ou moins."
+
+#~ msgid ""
+#~ "Note: When editing the Block-based checkout page, it may show that the "
+#~ "gateway is not compatible. This bug only affects the edit page; your "
+#~ "customers can use the gateway without issues. We are working on a solution "
+#~ "with WooCommerce developers for an upcoming update."
+#~ msgstr ""
+#~ "Note: Lors de l'édition de la page de paiement basée sur les blocs, il "
+#~ "peut indiquer que la passerelle n'est pas compatible. Ce bug n'affecte que "
+#~ "la page d'édition; vos clients peuvent utiliser la passerelle sans "
+#~ "problème. Nous travaillons avec les développeurs de WooCommerce sur une "
+#~ "solution pour une mise à jour prochaine."
+
+#~ msgid ""
+#~ "We are delighted to announce the latest enhancement to WeeConnectPay! This "
+#~ "newly added feature allows you to access two additional order notes that "
+#~ "offer valuable insights during the checkout process:"
+#~ msgstr ""
+#~ "Nous sommes ravis d’annoncer la dernière amélioration de WeeConnectPay! "
+#~ "Cette fonctionnalité nouvellement ajoutée vous permet d’accéder à deux "
+#~ "notes de commande supplémentaires qui offrent des informations précieuses "
+#~ "pendant le processus de paiement:"
+
+#~ msgid ""
+#~ "Billing and Shipping Zip/Postal Code Mismatch Note: Now, you'll receive a "
+#~ "handy order note when the billing and shipping zip/postal codes differ, "
+#~ "ensuring you stay informed about any address discrepancies."
+#~ msgstr ""
+#~ "Le Code postal de la facturation et d’expédition ne concorde pas: "
+#~ "Maintenant, vous recevrez une note de commande pratique lorsque les codes "
+#~ "postaux de la facturation et l’expédition diffèrent, vous assurant de "
+#~ "rester informé de tout écart d’adresse."
+
+#~ msgid ""
+#~ "Billing and Credit Card Zip/Postal Code Warning Note: As an added "
+#~ "precaution, we've included a warning order note when the billing zip/"
+#~ "postal code varies from the credit card zip/postal code. This alert helps "
+#~ "you prevent potential transaction issues."
+#~ msgstr ""
+#~ "Avertissement dans les notes pour le code postal de facturation et celle "
+#~ "de la carte de crédit: Par mesure de précaution supplémentaire, nous avons "
+#~ "inclus une note de mise en garde lorsque le code postal de facturation "
+#~ "diffère du code postal de la carte de crédit. Cette alerte vous aide à "
+#~ "prévenir les problèmes de transaction potentiels."
+
+#~ msgid "To start utilizing these insightful order notes, simply navigate to "
+#~ msgstr ""
+#~ "Pour commencer à utiliser ces notes de commande pertinente , il suffit de "
+#~ "naviguer vers "
+
+#~ msgid "the gateway settings"
+#~ msgstr "les paramètres de passerelle"
+
+#~ msgid ""
+#~ " and enable the setting. Stay ahead of the game with WeeConnectPay's "
+#~ "upgraded functionality!"
+#~ msgstr ""
+#~ " et activez le paramètre. Gardez une longueur d’avance avec la "
+#~ "fonctionnalité améliorée de WeeConnectPay!"
+
+#~ msgid "Enable the setting now"
+#~ msgstr "Activez le paramètre maintenant"
+
+#~ msgid ""
+#~ " and get the power of enhanced order notes to stay informed about billing "
+#~ "and shipping zip/postal code mismatches during checkout with "
+#~ "WeeConnectPay! 🚀💼"
+#~ msgstr ""
+#~ " et obtenez la puissance des notes de commande améliorées pour rester "
+#~ "informé des incohérences des codes postaux de la facturation et de "
+#~ "l’expédition lors du paiement avec WeeConnectPay! 🚀💼"

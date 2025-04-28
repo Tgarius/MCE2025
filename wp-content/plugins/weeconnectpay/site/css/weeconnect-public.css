@@ -1,0 +1,174 @@
+/**
+ * All of the CSS for your site-facing functionality should be
+ * included in this file.
+ */
+
+/*
+* Payment Fields -- Nested IDs for CSS specificity
+*/
+
+#weeconnectpay-wc-fields>#form-display-no-footer {
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer select.error, textarea.error, input.error, div.error {
+    color: #FF0000;
+}
+
+/* for :before element placement */
+#weeconnectpay-wc-fields>#form-display-no-footer .form-row .field {
+    position: relative;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .form-row .field.error::before {
+    background-image:  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' width='24px' height='24px' fill='none' viewBox='0 0 24 24' stroke='red' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 24px;
+    height: 24px;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .form-row .field.success::before {
+    background-image:  url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' width='24px' height='24px' fill='none' viewBox='0 0 24 24' stroke='green' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M5 13l4 4L19 7' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 24px;
+    height: 24px;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .form-row {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove border and background from themes that add it */
+#weeconnectpay-wc-fields>#form-display-no-footer .form-row .field.success {
+    background: unset;
+    border: unset;
+}
+
+/* to place error div right under fields */
+#weeconnectpay-wc-fields>#form-display-no-footer .form-row .field {
+    height: 3.4em;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .input-errors {
+    margin-bottom: 0.2em;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .top-row.error {
+    height: 4em;
+    margin-bottom: 0.3em;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .top-row-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .bottom-row-wrapper {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .full-width {
+    width: 100%;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .third-width {
+    width: 32%;
+}
+
+#weeconnectpay-wc-fields>#form-display-no-footer .button-container {
+    display: none;
+    justify-content: center;
+    margin: 1em;
+}
+
+
+/* To prevent Clover iframe from overflowing */
+#weeconnectpay-wc-fields>#form-display-no-footer .field iframe {
+    /*height: unset !important;*/
+}
+
+/* Enforce Google Pay min-height and min-width standards so themes don't override it */
+#weeconnectpay-payment-request-button iframe {
+    min-height: 40px;
+    min-width: 90px;
+}
+
+div#weeconnectpay-separator-with-text {
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+}
+
+div#weeconnectpay-separator-with-text:before,
+div#weeconnectpay-separator-with-text:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+div#weeconnectpay-separator-with-text:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+div#weeconnectpay-separator-with-text:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+/* Adds credit cards SVG in gateway name */
+#payment .payment_method_weeconnectpay>label::after {
+    content: url(../img/card-logos.png);
+    display: block;
+}
+#payment #weeconnectpay-secured-by-clover {
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#payment #weeconnectpay-secured-by-clover>#weeconnectpay-secured-by-lock {
+ padding-right: 10px;
+}
+#payment #weeconnectpay-secured-by-display>#weeconnectpay-secured-by-img {
+    vertical-align: middle;
+    margin: 0;
+    max-height: unset;
+
+}
+#payment #weeconnectpay-secured-by-display {
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    min-width: 180px
+}
+
+#payment #weeconnectpay-secured-by-display>#weeconnectpay-secured-by-text{
+    white-space: nowrap;
+    padding-right: 5px;
+}
+
+div#weeconnectpay-separator-with-text.wcp-google-pay-error {
+    display: none;
+}
+div#weeconnectpay-payment-request-button.wcp-google-pay-error {
+    display: none;
+}

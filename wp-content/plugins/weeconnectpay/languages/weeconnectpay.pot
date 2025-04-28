@@ -1,0 +1,656 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: WeeConnectPay\n"
+"POT-Creation-Date: 2024-08-15 16:58-0400\n"
+"PO-Revision-Date: 2023-09-20 11:23-0400\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: weeconnectpay.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: node_modules\n"
+"X-Poedit-SearchPathExcluded-3: payment_fields/node_modules\n"
+"X-Poedit-SearchPathExcluded-4: payment-fields-blocks/node_modules\n"
+
+#: admin/WeeConnectPayAdmin.php:177
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: admin/WeeConnectPayAdmin.php:251
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:874
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:927
+msgid "Card Brand"
+msgstr ""
+
+#: includes/ValidateSettings.php:62
+msgid "Default"
+msgstr ""
+
+#: includes/ValidateSettings.php:63
+msgid "Light"
+msgstr ""
+
+#: includes/ValidateSettings.php:64
+msgid "Blue"
+msgstr ""
+
+#: includes/ValidateSettings.php:65
+msgid "Coffee"
+msgstr ""
+
+#: includes/ValidateSettings.php:66
+msgid "Ectoplasm"
+msgstr ""
+
+#: includes/ValidateSettings.php:67
+msgid "Midnight"
+msgstr ""
+
+#: includes/ValidateSettings.php:68
+msgid "Ocean"
+msgstr ""
+
+#: includes/ValidateSettings.php:69
+msgid "Sunrise"
+msgstr ""
+
+#: includes/ValidateSettings.php:125
+msgid "Enable WooCommerce WeeConnectPay Clover Integration"
+msgstr ""
+
+#: includes/ValidateSettings.php:126
+msgid "Disable WooCommerce WeeConnectPay Clover Integration"
+msgstr ""
+
+#: includes/WeeConnectPayAPI.php:391
+msgid ""
+"A shipping address state, county or province is required for this gateway."
+msgstr ""
+
+#: includes/WeeConnectPayException.php:151
+msgid ""
+"We meant to show you a meaningful error but something went wrong. Please "
+"contact us."
+msgstr ""
+
+#: includes/WeeConnectPayException.php:159
+msgid "A Clover API key is needed to use this plugin."
+msgstr ""
+
+#: includes/WeeConnectPayException.php:166
+msgid ""
+"WeeConnectPay could not find an associated account with the provided Clover "
+"API Key. Log in the WeeConnectPay app through the Clover app market to "
+"resolve this."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:130
+msgid "Clover Integration"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:132
+msgid ""
+"Simplify online payments by adding the Clover payment option to your shopping "
+"cart. Then you will see your payments in real time on your Clover web portal."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:343
+msgid "Please enter your payment information."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:349
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:353
+msgid "Please enter a valid credit card number."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:359
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:363
+msgid "Please enter a valid credit card expiry date."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:369
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:373
+msgid "Please enter a valid credit card CVV number."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:379
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:383
+msgid "Please enter a valid credit card postal code."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:406
+msgid "Enable"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:407
+msgid "Enable payment gateway"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:413
+msgid "Authorize Plugin"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:417
+msgid "Title"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:419
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:421
+msgid "Payment by Credit Card"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:424
+msgid "Fraud Analysis"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:426
+msgid "Post Tokenization Verification"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:427
+msgid "Enable post-tokenization verification"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:432
+msgid "Google reCAPTCHA"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:434
+msgid "Enable Google reCAPTCHA"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:435
+msgid ""
+"Enable Google reCAPTCHA v3 for extra security. This new reCAPTCHA is "
+"completely hidden from the customer. A score value between 0 (100% automated) "
+"and 1 (100% human) will be added in the order notes for each payment attempt."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:441
+msgid "Google reCAPTCHA Site Key"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:442
+msgid ""
+"Don't have a site key and private key for this domain? <a href=\"https://www."
+"google.com/recaptcha/admin/create\" target=\"_blank\">Click here</a> to set "
+"it up."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:447
+msgid "Google reCAPTCHA Secret Key"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:451
+msgid "Google reCAPTCHA Minimum Human Score Threshold"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:453
+msgid ""
+"Enhance order security: Set a reCAPTCHA score threshold. The recommended "
+"default value is 0.5. Orders with scores below this setting will be "
+"considered as non-human order, the status will be set as \"failed\" in "
+"WooCommerce and no resource will be created in your Clover account."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:463
+msgid "Honeypot Fields"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:465
+msgid "Enable Honeypot Fields"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:466
+msgid ""
+"As an additional bot detection step, hidden fields that are sometimes filled "
+"by bots will be added to the form."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:494
+msgid "Merchant Name: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:499
+msgid "Merchant ID: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:513
+msgid "Log in as another Clover merchant or employee"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:586
+msgid ""
+"The hidden honeypot field was filled out. This field is hidden an can only be "
+"filled out programmatically. The likelihood of this order having been filled "
+"out by a human is extremely low. Cancelling order. Field Value: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:617
+msgid ""
+"<b>Google reCAPTCHA API.js (front-end/customer-facing) has encountered an "
+"error.</b> Google reCAPTCHA checks will be disabled for this transaction. "
+"Here is the error message: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:632
+msgid "Google reCAPTCHA: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:633
+msgid "Google reCAPTCHA score: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:634
+msgid "Minimum human score setting: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:637
+msgid ""
+"According to your plugin settings for Google reCAPTCHA, the customer who paid "
+"for the order is likely a human being."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:639
+msgid ""
+"According to your plugin settings for Google reCAPTCHA, the customer who paid "
+"for the order is <b>NOT</b> likely a human being. The order will be "
+"cancelled. If you are sure that this order was legitimate, please decrease "
+"the minimum human score threshold in the gateway settings."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:659
+msgid ""
+"The request to Google contains was successful but is missing the score "
+"telling us the likelihood of the user being a human being. See the full "
+"response: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:666
+msgid ""
+"The request to Google reCAPTCHA triggered an exception. See exception "
+"message: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:669
+msgid "The response from Google reCAPTCHA contains errors. See error codes: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:672
+msgid ""
+"The response from Google reCAPTCHA contains unexpected errors. See the full "
+"response: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:755
+msgid ""
+"ERROR: The merchant's Clover API key needs to be refreshed by the merchant to "
+"keep taking payments with this gateway. Please advise the merchant to re-"
+"authenticate in the integration to re-enable the payment gateway."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:766
+msgid ""
+"ERROR: The merchant's WeeConnectPay API key needs to be refreshed by the "
+"merchant to keep taking payments with this gateway. Please advise the "
+"merchant to re-authenticate in the integration to re-enable the payment "
+"gateway."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:826
+msgid "Clover order created."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:827
+msgid "Order ID: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:845
+msgid "No payment required: Order total is 0 or under."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:871
+msgid "Clover payment successful!"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:872
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:925
+msgid "Payment ID: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:886
+#, php-format
+msgid ""
+"ℹ️ Info: Please note that the shipping ZIP/Postal code \"%s\" and the billing "
+"ZIP/Postal code \"%s\" are different."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:891
+#, php-format
+msgid ""
+"⚠️ Warning: Please note that the billing ZIP/Postal code \"%s\" and the "
+"payment card ZIP/Postal code \"%s\" are different. These should be the same."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:907
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:930
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:944
+msgid "Clover error message: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:909
+msgid ""
+"Please check the order in the Clover dashboard for the full payment "
+"information."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:924
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:935
+msgid "Payment failed."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:938
+msgid "Clover response message: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:941
+msgid "Clover error code: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:949
+msgid "Payment failed - Unhandled context, see response payload: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1016
+msgid "Provided ID is not a WC Order"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1024
+msgid "No WC Order Refund found"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1030
+msgid "Refund amount must be higher than 0."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1035
+msgid "Last created refund is not a WC Order Refund"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1040
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1395
+msgid "Order has been already refunded"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1048
+msgid ""
+"Due to an undocumented breaking change in the Clover API, we have temporarily "
+"disabled partial refunds.\n"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1049
+msgid ""
+"This request to refund will not be processed. Should you want to do a partial "
+"refund, you can do so through your Clover web dashboard."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1067
+#, php-format
+msgid ""
+"To refund this line item (%s), the quantity to refund (currently %s) must be "
+"the total line item quantity (%s)"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1079
+#, php-format
+msgid ""
+"To refund this line item (%s), the amount before tax to refund (currently $"
+"%s) must be the line item total amount before tax ($%s)"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1091
+#, php-format
+msgid ""
+"To refund this line item (%s), the tax to refund (currently $%s) must be the "
+"line item total tax ($%s)"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1152
+#, php-format
+msgid ""
+"Could not find the fee to refund (%s) within the original order. Please "
+"contact support@weeconnectpay.com if you are seeing this message."
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1167
+#, php-format
+msgid ""
+"To refund this fee (%s), the quantity to refund (currently %s) must be the "
+"total fee quantity (%s)"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1180
+#, php-format
+msgid ""
+"To refund this fee (%s), the amount before tax to refund (currently $%s) must "
+"be the fee total amount before tax ($%s)"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1192
+#, php-format
+msgid ""
+"To refund this fee (%s), the tax to refund (currently $%s) must be the fee "
+"total tax ($%s)"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1253
+#, php-format
+msgid ""
+"To refund this shipping item (%s), the amount before tax to refund (currently "
+"$%s) must be the shipping item total amount before tax ($%s)"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1265
+#, php-format
+msgid ""
+"To refund this shipping item (%s), the shipping tax to refund (currently $%s) "
+"must be the shipping item total tax ($%s)"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1330
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1357
+msgid "Refunded: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1332
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1359
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1336
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1363
+msgid "Refund ID: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1337
+msgid "Charge refunded: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1340
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1366
+msgid "Reason: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1379
+msgid "Returned clover item ID: "
+msgstr ""
+
+#: includes/integrations/woocommerce/WC_Gateway_Weeconnectpay.php:1381
+#, php-format
+msgid "%1$s(%2$s %3$s) - %4$s"
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:212
+msgid ""
+"Failed to update the WooCommerce WeeConnectPay gateway enabled status in the "
+"database. The gateway options could not be found."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:225
+msgid "Failed to update the WooCommerce integration status in the database."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:259
+msgid ""
+"Failed to update the WooCommerce integration title in the database. The "
+"gateway options could not be found."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:272
+msgid "Failed to update the WooCommerce integration title in the database."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:645
+#, php-format
+msgid ""
+"Something went wrong while validating the current %1$s version. %1$s is "
+"required for this integration to work properly. Integration disabled. "
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:653
+msgid "Dependencies are ok!"
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Integration/IntegrationSettings.php:660
+msgid ""
+"Something went wrong while validating one of the requirements for this "
+"integration to work properly. Integration disabled."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/StandardizedResponse.php:34
+msgid ""
+"A malformed response was received. Our team has been notified. We are sorry "
+"for the inconvenience."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:44
+#, php-format
+msgid ""
+"%1$s constant does not seem to be set, which is required for this integration "
+"to work properly when using GitPod. Integration disabled."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:58
+msgid "Plain"
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:59
+msgid "the permalinks page"
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:62
+#, php-format
+msgid ""
+"You can resolve this issue by changing your WordPress permalinks settings to "
+"something other than \"%1$s\" on %2$s."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:69
+msgid ""
+"It appears that your WordPress database prefix is either not set or is set to "
+"an empty string. This is against WordPress security standards, and as a "
+"result, WeeConnectPay has been disabled."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:70
+msgid ""
+"To resolve this issue, please set a valid prefix in your WordPress database "
+"configuration. In a standard WordPress installation, this is done by defining "
+"the <code>$table_prefix</code> variable in the <code>wp-config.php</code> "
+"file. Having an empty or missing prefix can lead to security vulnerabilities, "
+"so it’s crucial to ensure this is configured correctly. <p><strong>Warning:</"
+"strong> Changing the <code>$table_prefix</code> value may trigger the "
+"WordPress installation wizard. This can give the appearance that your site’s "
+"data is missing, but your content is still safe in the database tables "
+"without the prefix. We strongly recommend consulting with your web developer "
+"before making this change to avoid any confusion or potential issues.</p>"
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:86
+#, php-format
+msgid ""
+"%1$s does not seem to be active, which is required for this integration to "
+"work properly. Integration disabled."
+msgstr ""
+
+#: includes/modules/WeeConnectPay/Validators/DependencyValidator.php:102
+#, php-format
+msgid ""
+"%1$s version %2$s or higher is required for this integration to work. Your "
+"current version is %3$s. Integration disabled."
+msgstr ""
+
+#: payment-fields-blocks/clover-woo-blocks/woo_blocks_payment_fields.js:32
+#: payment-fields-blocks/resources/js/frontend/index.js:13
+msgid "Credit Card"
+msgstr ""
+
+#: site/WeeConnectPayPublic.php:151
+msgid "Exciting Update from WeeConnectPay!"
+msgstr ""
+
+#: site/WeeConnectPayPublic.php:152
+msgid "Introducing a New Feature: Block-based checkout!"
+msgstr ""
+
+#: site/WeeConnectPayPublic.php:153
+msgid ""
+"Your WeeConnectPay plugin is now compatible with WooCommerce's new Block-"
+"based checkout. Enjoy seamless payments with the latest features."
+msgstr ""
+
+#: site/WeeConnectPayPublic.php:154
+msgid "If you encounter any issues, please contact us at "
+msgstr ""
+
+#: site/WeeConnectPayPublic.php:154
+msgid "support@weeconnectpay.com"
+msgstr ""
+
+#: site/WeeConnectPayPublic.php:154
+msgid " and we will be happy to help. Thank you!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "WeeConnectPay"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://weeconnectpay.com/plugin?platform=wordpress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Integrate Clover Payments with your WooCommerce online store."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://weeconnectpay.com/"
+msgstr ""
